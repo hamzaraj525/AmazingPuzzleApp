@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".QuestionTypeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Amazing Puzzle App"
+        android:textColor="@color/black"
+        android:textSize="33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="177dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:text="+"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="177dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:text="-"
+            android:textSize="44sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="177dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:text="*"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="177dp"
+            android:layout_height="133dp"
+            android:layout_margin="5dp"
+            android:text="/"
+            android:textSize="44sp" />
+
+    </LinearLayout>
+</LinearLayout>
